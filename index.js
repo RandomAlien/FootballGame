@@ -81,7 +81,6 @@ resetButton.addEventListener("click", function(){
 function changePlayers(player){
 	for(var i = 0; i < squares.length; i++){
 		//change each Player to correct player
-		squares[i].textContent = player;
 		squares[i].style.background = "Green";
 		h1.style.background = "Green";
 		
